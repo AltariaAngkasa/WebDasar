@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Dasar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <!-- <div class="main-nav"> -->
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#Tours">Tours</a></li>
+            <li><a href="#Explore">Explore</a></li>
+            <li><a href="#News">News</a></li>
+            <li class="ctn"><a href="#">Contact</a></li>
+        </ul>
+        <!-- </div> -->
+        <img src="img/logo.png" alt="menu" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Explore The World</h2>
+            <div class="line"></div>
+                <h1>WONDERFUL WORLD</h1>
+                <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+    <!-- ==EVENTS== -->
+    <main>
+        <article id="Tours">
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming Event</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="img/alam.png" alt="pantai">
+                <h4>Pantai Ora</h4>
+                <p>Pantai Ora adalah suatu pantai yang terletak Pulau Seram, 
+                    kecamatan Seram Utara, Maluku Tengah, Maluku, Indonesia. 
+                    Pantai yang berlokasi di ujung barat teluk Sawai ini 
+                    berada di sebelah Desa Saleman dan Desa Sawai, 
+                    di tepi hutan Taman Nasional Manusela</p>
+                    <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="img/alam2.png" alt="pantai">
+                <h4>Raja Ampat</h4>
+                <p>Kepulauan Raja Ampat merupakan rangkaian empat gugusan pulau 
+                    yang berdekatan dan berlokasi di barat bagian Kepala Burung 
+                    Pulau Papua. Secara administrasi, gugusan ini berada di bawah 
+                    Kabupaten Raja Ampat, Provinsi Papua Barat.s</p>
+                    <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+    </section>
+    </article>
+    <article id="Explore">
+    <section class="explore">
+        <div class="explore-content">
+            <h1>EXPLORE INDONESIA NATURE</h1>
+            <div class="line"></div>
+        <p>Cukup dengan melihat alam, kamu merasakan kedamaian. 
+            Berpetualanglah sejauh mata memandang, 
+            mengayuhlah sejauh jalanan terbentang, 
+            bergurulah sejauh alam terkembang</p>
+        <a href="#" class="ctn">Learn More</a>
+        </div>
+    </section>
+    </article>
+    <article id="News">
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>Upcoming Tours & Destination</h1>
+                <div class="line"></div>
+                <p>Halo Semua, Semoga hari ini diberikan kesehatan dan semangat ya...
+                    <br>Ada kabar nih, Kita akan event 'Pengembara' lagi nih. Tempatnya
+                    bakal kita kasih tahu minggu depan, Stay Tune~
+                </p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="img/img.png" alt="">
+                    <img src="img/img2.png" alt="">
+                    <img src="img/img3.png" alt="">
+                    <img src="img/img4.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    </article>
+    <article id="Contact">
+        <section class="overlay">
+            <div class="overlay-content">
+                <form action="">
+                    <h4>Contact Us</h4>
+                    <label for="name">Nama:</label>
+                    <input type="text" id="name" placeholder="Nama">
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Email">
+
+                    <label for="message">Pesan:</label>
+                    <textarea name="pesan" id="message"rows="6"></textarea>
+
+                    <div class="center">
+                        <input type="submit" value="Kirim Pesan">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </article>
+    <aside>
+        <article id="biodata">
+            <div class="container">
+                <div class="profile-box">
+                    <h2>BIODATA</h2>
+                    <img src="img/menu.png" alt="menu" class="menu-icon">
+                    <img src="img/setting.png" alt="menu" class="setting-icon">
+                    <img src="img/profile-pica.png" alt="menu" class="profile-pic">
+                    <h3>Alif Wilah Desfitrawan</h3>
+                    <p>Web Developer</p>
+                </div>
+            </div>
+        </article>
+    </aside>
+</main>
+    <footer>
+        <div class="footer">
+            <!-- <p>Griya Katulampa B6/12|Phone: 085-886-913-38|Email: alifwilah682@gmail.com</p> -->
+            <p>Copyright © 2022 Alif Wilah Desfitrawan</p>
+        </div>
+    </footer>
+    <script>
+        const menuBtn = document.querySelector('.menu-btn');
+        const navlinks = document.querySelector('.nav-links');
+
+        menuBtn.addEventListener('click', ()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>
+<!-- DISCLAIMER
+
+Segala gambar dan informasi yang disampaikan dalam codingan ini 
+disampaikan dengan tujuan baik dan hanya untuk pembelajaran saja, 
+dan tidak menyangkut pihak manapun -->
