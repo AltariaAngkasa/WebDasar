@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glassmorphism</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="heart"></div>
+    <div class="container">
+        <div class="card">
+            <div class="content">
+                <h2>01</h2>
+                <h3>Card One</h3>
+                <p>Tiada yang lebih indah dari dua raga yang saling menjaga, 
+                    Tidak bertemu namun saling menunggu, Tidak berpapasan namun 
+                    saling memantaskan</p>
+                    <a href="#">I</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <h2>02</h2>
+                <h3>Card Two</h3>
+                <p>Kunci untuk bahagia adalah menjalani hidup seolah-olah tidak ada yang mengawasi, 
+                    dan mengekspresikan diri seolah-olah semua orang mendengarkan</p>
+                    <a href="#">LOVE</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <h2>03</h2>
+                <h3>Card Three</h3>
+                <p>Hidup ini tidak seperti novel, yang kita bisa mengulang halaman pertama 
+                    kapanpun kita mau. Dalam kehidupan nyata, saat sebuah kisah 
+                    tidak lagi asyik, mulai menyakitkan, 
+                    kita tidak bisa mengulanginya dari halaman pertama lagi.</p>
+                    <a href="#">YOU</a>
+            </div>
+        </div>
+        <div class="heart"></div>
+    </div>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelectorAll(".card"),{
+            max: 25,
+            speed: 400,
+            glare: true,
+            "max-glare": 1,
+        });
+    </script>
+</body>
+</html>
